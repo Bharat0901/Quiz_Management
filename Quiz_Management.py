@@ -1,6 +1,4 @@
 import csv,os
-from lib2to3.pgen2.token import LSQB
-from tkinter import N
 print("1) Login (Kindly login to save your progress) ")
 print("2) Sign Up")
 print("3) Start Quiz")
