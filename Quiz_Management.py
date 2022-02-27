@@ -64,11 +64,10 @@ def three():
         ans=int(input("Enter choice number (index starts from 1) "))
         if ans==conv(k):
             score+=1
-            qno+=1
             print("That's correct")
         else:
             print("Better luck next time")
-        
+        qno+=1
         leave=input("Wanna quit? Scared? dw if logged in your progress will be saved!")
         if leave=="y":
             break
